@@ -34,8 +34,11 @@ Requirements
 
 - Bootstrap
 - Laravel 5.5.28
+- PHP Composer (dependency management)
 - Mysql >= 5.6.26
 - PHP >= 5.6.4
+
+  Enable php extensions -	
 - OpenSSL PHP Extension
 - PDO PHP Extension
 - Mbstring PHP Extension
