@@ -1,4 +1,4 @@
-<p align="center"><img src="https://gitlab.com/priyesh_pandya/laravel-blog/raw/master/public/images/blog-content-logo.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/priyesh-pandya/laravel-blog/master/public/images/blog-content-logo.png"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -9,7 +9,7 @@
 
 ## Laravel-Blog
 
-Laravel-blog is build to demonstrate a simple blog application using the Laravel version 5.5, can be used to learn laravel basics operations & its functionalities. For more detail refer laravel development.
+Laravel-blog is build to demonstrate a simple blog application using the Laravel version 5.5, can be used to learn laravel basics operations & its functionalities. For more detail refer laravel documents.
 
 
 ## About Laravel
@@ -47,7 +47,7 @@ Requirements
 
 Open the GIT cli (Git - The Command Line) execute following commands in your local machine
 
-- git clone https://gitlab.com/priyesh_pandya/laravel-blog.git
+- git clone https://github.com/priyesh-pandya/laravel-blog.git
 - cd laravel-blog
 - composer install
 - cp .env.example .env
