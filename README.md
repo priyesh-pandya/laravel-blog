@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
+<p align="center"><img src="https://gitlab.com/priyesh_pandya/laravel-blog/raw/master/public/images/blog-content-logo.png"></p>
 
-You can use the [editor on GitHub](https://github.com/priyesh-pandya/laravel-blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## About Laravel
 
-### Markdown
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+ 
+## Real world laravel blog app 
+
+A simple blog for demonstration purpose. Based on Laravel 5.5
+
+Requirements
+
+- Bootstrap
+- Laravel 5.5.28
+- Mysql >= 5.6.26
+- PHP >= 5.6.4
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension 
+ 
+
+## Installation
+
+Open the GIT cli (Git - The Command Line) execute following commands 
+
+- git clone https://gitlab.com/priyesh_pandya/laravel-blog.git
+- cd laravel-blog
+- composer install
+- cp .env.example .env
+- php artisan key:generate 
+
+
+### Database
+Create new database you can use mysql command to create new database.
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+CREATE DATABASE laravel_blog;
 
-- Bulleted
-- List
+Change the following settings from .env file replace your mysql server credentials, The default username for a new MySQL installation is root, with a blank password.    
 
-1. Numbered
-2. List
+- DB_CONNECTION=mysql
+- DB_HOST=localhost
+- DB_PORT=3306
+- DB_DATABASE=laravel_blog
+- DB_USERNAME=root
+- DB_PASSWORD=
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+Make sure you set the correct database connection information before running the migrations
+
+- php artisan migrate
+- php artisan serve
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Open the url http://127.0.0.1:8000/ in your web browser will run the blog app
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/priyesh-pandya/laravel-blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Author : Priyesh Pandya
 
-### Support or Contact
+Feel free to email me, if you have any question.
+ 
+ 
+## License
+The demo code is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ 
