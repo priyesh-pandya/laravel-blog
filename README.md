@@ -7,6 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Laravel-Blog
+
+Laravel-blog is build to demonstrate a simple blog application using the Laravel version 5.5, can be used to learn laravel basics operations & its functionalities. For more detail refer laravel development.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
@@ -23,7 +28,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
  
 ## Real world laravel blog app 
 
-A simple blog for demonstration purpose. Based on Laravel 5.5
+A real world blog app yet simple application for demonstration purpose only which is based on Laravel version 5.5
 
 Requirements
 
@@ -40,7 +45,7 @@ Requirements
 
 ## Installation
 
-Open the GIT cli (Git - The Command Line) execute following commands 
+Open the GIT cli (Git - The Command Line) execute following commands in your local machine
 
 - git clone https://gitlab.com/priyesh_pandya/laravel-blog.git
 - cd laravel-blog
@@ -50,13 +55,14 @@ Open the GIT cli (Git - The Command Line) execute following commands
 
 
 ### Database
-Create new database you can use mysql command to create new database.
+
+Create a new database in your local and you mysql command to create new database like Create Command
 
 ```markdown
 
 CREATE DATABASE laravel_blog;
 
-Change the following settings from .env file replace your mysql server credentials, The default username for a new MySQL installation is root, with a blank password.    
+Change the following settings from the .env file replace your mysql server credentials, The default username for a new MySQL installation is root, with a blank password in my case.    
 
 - DB_CONNECTION=mysql
 - DB_HOST=localhost
@@ -66,14 +72,14 @@ Change the following settings from .env file replace your mysql server credentia
 - DB_PASSWORD=
 
 
-Make sure you set the correct database connection information before running the migrations
+Make sure you set the correct database connection information before running the migrations commands
 
 - php artisan migrate
 - php artisan serve
 
 ```
 
-Open the url http://127.0.0.1:8000/ in your web browser will run the blog app
+Now open the url http://127.0.0.1:8000/ (after PHP serve) in your web browser will run the blog app or use whatever URL you setup for this project.
 
 
 Author : Priyesh Pandya
